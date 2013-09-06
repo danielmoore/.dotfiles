@@ -1,0 +1,26 @@
+[user]
+  name = Daniel Moore
+  email = polaris@northhorizon.net
+
+[alias]
+  st = status
+  ci = commit
+  co = checkout
+  amend = commit --amend --no-edit
+  ffmg = merge --ff-only
+  vlog = log --graph --oneline --all --decorate
+
+[push]
+  default = upstream
+
+[color]
+  ui = true
+
+[core]
+  eol = lf
+
+[branch]
+  autosetuprebase = always
+
+[pull]
+  rebase = true

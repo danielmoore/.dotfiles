@@ -1,0 +1,4 @@
+" Font 
+  set gfn=Menlo\ Regular:h11
+
+  source ~/Dropbox/vim/vimrc.base

@@ -1,0 +1,54 @@
+  set smarttab
+
+  imap <S-Space> <Esc>
+  imap <Ctrl-i> <Esc>
+" Keyword completion like Visual Studio 
+  imap <C-Space> <C-n>
+
+  syn on
+  set background=dark
+  colo earendel
+
+  set virtualedit=
+  set nobackup
+  set nowritebackup
+  set noswapfile
+
+  set cino=(4
+  set noexpandtab
+  set cindent
+
+" Spelling
+:setlocal spell spelllang=en_us
+
+" Search
+  set incsearch 
+
+" more powerful backspacing
+  set backspace=2         
+
+" Show line numbers
+  set nu
+
+" FileUtils
+" NerdTree  
+  map <C-l> :wa \| NERDTreeToggle<CR>
+
+" Turn Menu and toolbar off
+  set guioptions=-m
+  set guioptions=-M
+" Turn scrollbars off
+  set guioptions-=r  
+  set guioptions-=b 
+
+"Set smaller tab size
+  set tabstop=2
+  set shiftwidth=2
+  set expandtab
+  set nowrap
+
+" Show columns
+  set ruler
+
+" Set under-cursor highlighting
+" AutoHighlightToggle()
