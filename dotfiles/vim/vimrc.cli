@@ -1,1 +1,1 @@
-  source ~/Dropbox/vim/vimrc.base
+  source $PROFILE_DIR/dotfiles/vim/vimrc.base

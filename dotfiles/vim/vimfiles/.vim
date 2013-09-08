@@ -1,1 +1,1 @@
-./.profile/dotfiles/vim/vimfiles
+/Users/dmoore/.profile/dotfiles/vim/vimfiles
