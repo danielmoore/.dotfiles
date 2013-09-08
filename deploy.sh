@@ -1,12 +1,21 @@
 #!/bin/bash
 
-DIR=$(dirname $0)
+dir=$(cd $(dirname "${BASH_SOURCE[0]}") && pwd)
 
-mv .bashrc .bashrc.old
-ln -s $DIR/bash/bashrc.osx ~/.bashrc
+echo Setting \$PROFILE_DIR to $dir
 
-mv .vimrc .vimrc.old
-ln -s $DIR/vim/vimrc.cli ~/.vimrc
+function install {
+  mv ~/$2 ~/$2.old
+  cat $dir/$1 | sed "s/%PROFILE_DIR%/$(sed -e 's/[\/&]/\\&/g' <<< $dir)/g" > ~/$2
+}
 
-mv .vim .vim.old
-ln -s $DIR/vim/vimfiles ~/.vim
+function link {
+  mv ~/$2 ~/$2.old
+  ln -s $dir/$1 ~/$2
+}
+
+install dotfiles/bash/template.bashrc.bash .bashrc
+install dotfiles/bash/template.bash_profile.bash .bash_profile
+
+link dotfiles/vim/vimrc.cli .vimrc
+link dotfiles/vim/vimfiles .vim
