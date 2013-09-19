@@ -17,7 +17,7 @@ function link {
 install dotfiles/bash/template.bashrc.bash .bashrc
 install dotfiles/bash/template.bash_profile.bash .bash_profile
 
-install dotfiles/template.gitconfig .gitconfig
+install dotfiles/git/template.gitconfig .gitconfig
 
 link dotfiles/vim/vimrc.cli .vimrc
 link dotfiles/vim/vimfiles .vim
