@@ -9,6 +9,7 @@
   ffmg = merge --ff-only
   vlog = log --graph --oneline --all --decorate
   rebase-retry = "!rebaseDir=$(git rev-parse --git-dir)/rebase-apply; git reset --hard && git apply $rebaseDir/$(printf '%04d' $(cat $rebaseDir/next)) --3way"
+  branch-date = "!f(){ git show -s --format=%ci $(git merge-base HEAD $1); }; f"
 
 [push]
   default = upstream
