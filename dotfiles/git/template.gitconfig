@@ -1,0 +1,3 @@
+[include]
+	path = %PROFILE_DIR%/dotfiles/git/gitconfig
+	
