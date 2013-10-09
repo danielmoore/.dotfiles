@@ -10,7 +10,7 @@
   vlog = log --graph --oneline --all --decorate
   rebase-retry = "!rebaseDir=$(git rev-parse --git-dir)/rebase-apply; git reset --hard && git apply $rebaseDir/$(printf '%04d' $(cat $rebaseDir/next)) --3way"
   branch-date = "!f(){ git show -s --format=%ci $(git merge-base HEAD $1); }; f"
-  fshow = ! sh -c 'git show --pretty="format:" --name-only $1 | grep -v "^$" | uniq | sed -e "s#^#`git rev-parse --show-toplevel`/#"' -
+  fshow = ! sh -c 'git show --pretty="format:" --name-only $1 | grep -v "^$" | sed -e "s#^#`git rev-parse --show-toplevel`/#" | sort -u' -
 
 [push]
   default = upstream
