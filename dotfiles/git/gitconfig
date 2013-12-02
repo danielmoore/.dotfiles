@@ -11,6 +11,7 @@
   rebase-retry = "!rebaseDir=$(git rev-parse --git-dir)/rebase-apply; git reset --hard && git apply $rebaseDir/$(printf '%04d' $(cat $rebaseDir/next)) --3way"
   branch-date = "!f(){ git show -s --format=%ci $(git merge-base HEAD $1); }; f"
   fshow = ! sh -c 'git show --pretty="format:" --name-only $1 | grep -v "^$" | sed -e "s#^#`git rev-parse --show-toplevel`/#" | sort -u' -
+  unstage-checkout = ! sh -c 'git reset HEAD $1 && git checkout $1' -
   branch-alias = ! sh -c 'git symbolic-ref refs/heads/$1 $(git symbolic-ref HEAD)' -
 
 [push]
