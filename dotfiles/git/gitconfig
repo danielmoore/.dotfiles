@@ -13,6 +13,7 @@
   fshow = ! sh -c 'git show --pretty="format:" --name-only $1 | grep -v "^$" | sed -e "s#^#`git rev-parse --show-toplevel`/#" | sort -u' -
   unstage-checkout = ! sh -c 'git reset HEAD $1 && git checkout $1' -
   branch-alias = ! sh -c 'git symbolic-ref refs/heads/$1 $(git symbolic-ref HEAD)' -
+  rework = ! sh -c 'git rebase -i $(git merge-base $1 $(git symbolic-ref HEAD))' -
 
 [push]
   default = upstream
