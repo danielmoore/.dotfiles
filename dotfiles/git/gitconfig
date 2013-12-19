@@ -15,6 +15,7 @@
   branch-alias = ! sh -c 'git symbolic-ref refs/heads/$1 $(git symbolic-ref HEAD)' -
   rework = ! sh -c 'git rebase -i $(git merge-base $1 $(git symbolic-ref HEAD))' -
   tail = log -n 5 --format='%C(auto)%h %>(20)%aN %><(16)%cr %s' --reverse
+  diverge = ! bash $PROFILE_DIR/dotfiles/git/lib/diverge.sh
 
 [push]
   default = upstream
