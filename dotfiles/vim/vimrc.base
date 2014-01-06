@@ -19,7 +19,9 @@
   set cindent
 
 " Spelling
-:setlocal spell spelllang=en_us
+  :setlocal spell spelllang=en_us
+  hi clear SpellBad
+  hi SpellBad cterm=underline ctermfg=red
 
 " Search
   set incsearch 
