@@ -27,7 +27,12 @@ while getopts 'o:rewh' OPTION; do case $OPTION in
   ?) usage; exit -1;;
 esac; done
 
-branchOpts=$(if $remote; then echo '--remote'; fi)
+if $remote; then
+  branchOpts='--remote';
+  masterBranch='origin/master';
+else
+  masterBranch='master';
+fi
 
 cutoff=$(date -v -${cutoffOffset} +%s)
 
@@ -38,17 +43,20 @@ case "$emptyTrash $whatIf" in
   'false true')  verb='Would move';;
 esac
 
+sources=("<(git branch $branchOpts)")
 egrepOpts=('-e (^|/)trash/')
 if ! $emptyTrash; then
+  sources+=("<(git branch $branchOpts --merged $masterBranch)")
   # don't include pointers, i.e. foo -> bar
-  egrepOpts+=('-v' '-e master' '-e \->')
+  egrepOpts+=('-v' "-e ^${masterBranch}\$" '-e \->')
 
   if [[ -e .gitcleanbranchignore ]]; then
     egrepOpts+=('-f .gitcleanbranchignore')
   fi
 fi
 
-git branch $branchOpts | cut -c 3- | egrep ${egrepOpts[@]} | {
+echo sort -m ${sources[@]}
+eval "sort -m ${sources[@]}" | cut -c 3- | egrep ${egrepOpts[@]} | {
   while read branch; do
     if $remote; then
       remoteName=${branch%%/*}
