@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -e
 
 usage() {
   cat << EOF
@@ -74,11 +74,9 @@ eval "sort -m ${sources[@]}" | cut -c 3- | egrep ${egrepOpts[@]} | {
       if $whatIf; then continue; fi
 
       if $remote; then
-        git push --delete $remoteName $remoteBranch || \
-        exit $$
+        git push --delete $remoteName $remoteBranch
       else
-        git branch -D $branch || \
-        exit $$
+        git branch -D $branch
       fi 
     else
       branchDate=$(git show -s --format=%ct $branch)
@@ -89,13 +87,11 @@ eval "sort -m ${sources[@]}" | cut -c 3- | egrep ${egrepOpts[@]} | {
         if $whatIf; then continue; fi
 
         if $remote; then 
-          git push $remoteName $branch:refs/heads/$newBranch && \
-          git push --delete $remoteName $remoteBranch || \
-          exit $$
+          git push $remoteName $branch:refs/heads/$newBranch
+          git push --delete $remoteName $remoteBranch
         else
-          git branch $newBranch $branch && \
-          git branch -D $branch || \
-          exit $$
+          git branch $newBranch $branch
+          git branch -D $branch
         fi
       fi
     fi
