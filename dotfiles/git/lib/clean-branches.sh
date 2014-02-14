@@ -55,7 +55,6 @@ if ! $emptyTrash; then
   fi
 fi
 
-echo sort -m ${sources[@]}
 eval "sort -m ${sources[@]}" | cut -c 3- | egrep ${egrepOpts[@]} | {
   while read branch; do
     if $remote; then
