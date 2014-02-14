@@ -1,4 +1,12 @@
-#!/bin/bash -e
+#!/bin/bash
+
+onerror() {
+  line=$1
+  echo Error executing command on line $line: $BASH_COMMAND
+  exit -1
+}
+
+trap 'onerror $LINENO' ERR
 
 usage() {
   cat << EOF
@@ -11,6 +19,8 @@ Options:
   -h           Shows this message and quits.
 EOF
 }
+
+branchWhitelist=.git-branch-whitelist
 
 cutoffOffset=14d
 branchOpts=
@@ -50,8 +60,8 @@ if ! $emptyTrash; then
   # don't include pointers, i.e. foo -> bar
   egrepOpts+=('-v' "-e ^${masterBranch}\$" '-e \->')
 
-  if [[ -e .gitcleanbranchignore ]]; then
-    egrepOpts+=('-f .gitcleanbranchignore')
+  if [[ -e $branchWhitelist ]]; then
+    egrepOpts+=("-f $branchWhitelist")
   fi
 fi
 
@@ -80,7 +90,7 @@ eval "sort -m ${sources[@]}" | cut -c 3- | egrep ${egrepOpts[@]} | {
     else
       branchDate=$(git show -s --format=%ct $branch)
 
-      if [ $branchDate -lt $cutoff ]; then
+      if [ "$branchDate" -lt "$cutoff" ]; then
         echo "$verb $oldBranch -> $newBranch (last commit was on $(date -j -f %s $branchDate))"
 
         if $whatIf; then continue; fi
