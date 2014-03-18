@@ -96,7 +96,7 @@ eval "sort -m ${sources[@]}" | cut -c 3- | egrep ${egrepOpts[@]} | {
         if $whatIf; then continue; fi
 
         if $remote; then 
-          git push $remoteName $branch:refs/heads/$newBranch
+          git push $remoteName "$branch:refs/heads/$newBranch"
           git push --delete $remoteName $remoteBranch
         else
           git branch $newBranch $branch
