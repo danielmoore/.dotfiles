@@ -1,0 +1,33 @@
+{
+	"dictionary": "Packages/Language - English/en_GB.dic",
+	"folder_exclude_patterns":
+	[
+		".idea",
+		".git",
+		".sass-cache"
+	],
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Markdown",
+		"Trimmer",
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"rulers":
+	[
+		80,
+		120
+	],
+	"show_line_endings": true,
+	"spell_check": true,
+	"tab_size": 2,
+	"theme": "predawn.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"use_tab_stops": true
+}

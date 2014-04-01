@@ -1,0 +1,23 @@
+{
+	"installed_packages":
+	[
+		"Chef",
+		"EsFormatter",
+		"GitGutter",
+		"HexViewer",
+		"INI",
+		"JsFormat",
+		"JSHint Gutter",
+		"LineEndings",
+		"Markdown Preview",
+		"MarkdownEditing",
+		"Open URL",
+		"Predawn",
+		"Sass",
+		"SublimeERB",
+		"Table Editor",
+		"Theme - amCoder",
+		"Theme - Centurion Blue",
+		"Trimmer"
+	]
+}
