@@ -21,7 +21,7 @@ if [ -f /etc/bash_completion ]; then
 fi
 
 function parallel {
-  trap $'kill $(jobs -l | cut -f 2 -d \' \')' SIGINT
+  trap $'kill $(jobs -l | cut -f 2 -d \' \'); trap - SIGINT' SIGINT
 
   for cmd in "$@"; do
     $cmd &
