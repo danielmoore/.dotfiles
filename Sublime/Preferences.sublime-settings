@@ -10,8 +10,11 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Markdown",
 		"Trimmer",
+		"Markdown",
+		"Markdown Preview",
+		"Theme - Centurion Blue",
+		"Stylus",
 		"Vintage"
 	],
 	"indent_guide_options":
