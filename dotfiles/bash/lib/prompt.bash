@@ -11,4 +11,4 @@ case $env in
   *)        hostColor='01;32'    ;; # bold green
 esac
 
-export PROMPT_COMMAND=$'__git_ps1 \'\e[${hostColor}m\u@\h\e[0m: \e[00;34m\w\e[0m\' \'\n\! \$ \' \' %s\''
+export PROMPT_COMMAND=$'__git_ps1 \'\e[${hostColor}m\u@\h\e[0m \u25B8 \e[00;34m\w\e[0m\' \'\n\! \$ \' \' %s\''
