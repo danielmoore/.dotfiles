@@ -2,7 +2,6 @@
 	"installed_packages":
 	[
 		"Chef",
-		"EsFormatter",
 		"GitGutter",
 		"HexViewer",
 		"INI",
@@ -13,6 +12,7 @@
 		"MarkdownEditing",
 		"Open URL",
 		"Predawn",
+		"Pretty JSON",
 		"Sass",
 		"SublimeERB",
 		"Table Editor",
