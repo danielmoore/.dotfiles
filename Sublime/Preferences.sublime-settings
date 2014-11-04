@@ -6,12 +6,13 @@
 		".git",
 		".sass-cache"
 	],
+	"font_face": "Monaco",
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage",
 		"Markdown",
-		"Trimmer"
+		"Trimmer",
+		"Vintage"
 	],
 	"indent_guide_options":
 	[
@@ -26,7 +27,7 @@
 	"show_line_endings": true,
 	"spell_check": true,
 	"tab_size": 2,
-	"theme": "predawn.sublime-theme",
+	"theme": "Cobalt2.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_tab_stops": true
