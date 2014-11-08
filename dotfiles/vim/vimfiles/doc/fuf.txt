@@ -7,7 +7,7 @@ FuzzyFinder                                                *fuzzyfinder* *fuf*
 INTRODUCTION                    |fuf-introduction|
 INSTALLATION                    |fuf-installation|
 USAGE                           |fuf-usage|
-MODES                           |fuf-modes|
+ODES                           |fuf-modes|
 DETAILED TOPICS                 |fuf-detailed-topics|
 COMMANDS                        |fuf-commands|
 OPTIONS                         |fuf-options|
@@ -142,7 +142,7 @@ mode supporting preview.
 
 
 ==============================================================================
-MODES                                                              *fuf-modes*
+ODES                                                              *fuf-modes*
 
                                                              *fuf-buffer-mode*
 Buffer mode ~
@@ -162,7 +162,7 @@ This mode provides an interface to search a directory and change the current
 directory.
 
                                                             *fuf-mrufile-mode*
-MRU-File mode ~
+RU-File mode ~
 
 This mode provides an interface to select a file from most recently used files
 and open it.
@@ -172,7 +172,7 @@ processes for this mode in |BufEnter| and |BufWritePost| could cause
 Performance issue.
 
                                                              *fuf-mrucmd-mode*
-MRU-Command mode ~
+RU-Command mode ~
 
 This mode provides an interface to select a command from most recently used
 commands and execute it.
@@ -558,7 +558,7 @@ after a path separator is expanded to "../" sequence.
                                                                   *fuf-migemo*
 What Is Migemo ~
 
-Migemo is a search method for Japanese language.
+igemo is a search method for Japanese language.
 
 
 ==============================================================================

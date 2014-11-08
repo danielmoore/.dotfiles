@@ -352,42 +352,42 @@ if main_syntax == "mxml"
 endif
 
 " The default highlighting.
-MXMLHiLink xmlTodo		Todo
-MXMLHiLink xmlTag		Function
-MXMLHiLink xmlTagName		Function
-MXMLHiLink xmlEndTag		Identifier
+XMLHiLink xmlTodo		Todo
+XMLHiLink xmlTag		Function
+XMLHiLink xmlTagName		Function
+XMLHiLink xmlEndTag		Identifier
 if !exists("g:mxml_namespace_transparent")
     MXMLHiLink xmlNamespace	Tag
 endif
-MXMLHiLink xmlEntity		Statement
-MXMLHiLink xmlEntityPunct	Type
+XMLHiLink xmlEntity		Statement
+XMLHiLink xmlEntityPunct	Type
 
-MXMLHiLink xmlAttribPunct	Comment
-MXMLHiLink xmlAttrib		Type
+XMLHiLink xmlAttribPunct	Comment
+XMLHiLink xmlAttrib		Type
 
-MXMLHiLink xmlString		String
-MXMLHiLink xmlComment		Comment
-MXMLHiLink xmlCommentPart	Comment
-MXMLHiLink xmlCommentError	Error
-MXMLHiLink xmlError		Error
+XMLHiLink xmlString		String
+XMLHiLink xmlComment		Comment
+XMLHiLink xmlCommentPart	Comment
+XMLHiLink xmlCommentError	Error
+XMLHiLink xmlError		Error
 
-MXMLHiLink xmlProcessingDelim	Comment
-MXMLHiLink xmlProcessing	Type
+XMLHiLink xmlProcessingDelim	Comment
+XMLHiLink xmlProcessing	Type
 
-MXMLHiLink xmlCdata		String
-MXMLHiLink xmlCdataCdata	Statement
-MXMLHiLink xmlCdataStart	Type
-MXMLHiLink xmlCdataEnd		Type
+XMLHiLink xmlCdata		String
+XMLHiLink xmlCdataCdata	Statement
+XMLHiLink xmlCdataStart	Type
+XMLHiLink xmlCdataEnd		Type
 
-MXMLHiLink xmlDocTypeDecl	Function
-MXMLHiLink xmlDocTypeKeyword	Statement
-MXMLHiLink xmlInlineDTD	Function
-MXMLHiLink Script		Special
-MXMLHiLink actionScriptExpression Script 		
-MXMLHiLink xmlCssStyleComment    Comment
-MXMLHiLink xmlCssDefinition      Special
-MXMLHiLink mxmlEvent             Script
-MXMLHiLink mxmlSpecialTagName    Exception 
+XMLHiLink xmlDocTypeDecl	Function
+XMLHiLink xmlDocTypeKeyword	Statement
+XMLHiLink xmlInlineDTD	Function
+XMLHiLink Script		Special
+XMLHiLink actionScriptExpression Script 		
+XMLHiLink xmlCssStyleComment    Comment
+XMLHiLink xmlCssDefinition      Special
+XMLHiLink mxmlEvent             Script
+XMLHiLink mxmlSpecialTagName    Exception 
 
 
 let b:current_syntax = "mxml"

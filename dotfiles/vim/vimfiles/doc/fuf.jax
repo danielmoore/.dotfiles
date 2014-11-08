@@ -159,7 +159,7 @@ Directory モード ~
 スを提供します。
 
                                                             *fuf-mrufile-mode*
-MRU-File モード ~
+RU-File モード ~
 
 このモードは最近使ったファイルを選択して開くインターフェースを提供します。
 
@@ -167,7 +167,7 @@ MRU-File モード ~
 で、デフォルトでは|g:fuf_modesDisable|で無効化するモードに指定されています。
 
                                                              *fuf-mrucmd-mode*
-MRU-Command モード ~
+RU-Command モード ~
 
 このモードは最近使ったコマンドラインを選択して開くインターフェースを提供します
 。
@@ -530,7 +530,7 @@ FuzzyFinder は補完統計、MRUデータ、ブックマークなどを
         /....           /../../../
 
                                                                   *fuf-migemo*
-Migemo とは ~
+igemo とは ~
 
 以下のページを参照してください。
         - http://0xcc.net/migemo/
@@ -908,7 +908,7 @@ Directory モード用 ~
         補完リストから除外したいアイテムの正規表現パターン。
 
                                                 *fuf-options-for-mrufile-mode*
-Mru-File モード用 ~
+ru-File モード用 ~
 
                                                      *g:fuf_mrufile_prompt*  >
   let g:fuf_mrufile_prompt = '>Mru-File[]>'
@@ -932,7 +932,7 @@ Mru-File モード用 ~
         保持するMRUアイテムの上限値。
 
                                                  *fuf-options-for-mrucmd-mode*
-Mru-Cmd モード用 ~
+ru-Cmd モード用 ~
 
                                                       *g:fuf_mrucmd_prompt*  >
   let g:fuf_mrucmd_prompt = '>Mru-Cmd[]>'

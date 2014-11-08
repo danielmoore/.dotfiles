@@ -43,8 +43,8 @@ Adobe Flex consists of two types of files:
     MXML (*.mxml) files
     Actionscript (*.as) files 
 
-MXML is a XML-based user interface markup language first introduced by
-Macromedia in March 2004. Adobe Systems (which acquired Macromedia in
+XML is a XML-based user interface markup language first introduced by
+acromedia in March 2004. Adobe Systems (which acquired Macromedia in
 December 2005) gives no official meaning for the acronym, but some
 developers suggest it should stand for "Magic eXtensible Markup Language"
 (which is a backronym). It's likely that the name comes from the MX suffix
@@ -60,7 +60,7 @@ embedded into Web pages), but is also used in some database applications
 Kit. Originally developed by Macromedia, the language is now owned by Adobe
 (which acquired Macromedia in 2005). ActionScript was initially designed for
 controlling simple 2D vector animations made in Adobe Flash (formerly
-Macromedia Flash). Later versions added functionality allowing for the
+acromedia Flash). Later versions added functionality allowing for the
 creation of Web-based games and rich Internet applications with streaming
 media (such as video and audio).
 
@@ -109,7 +109,7 @@ edit your: >
     vimfiles/filetype.vim
     .vim/filetype.vim
 <
-Make sure the following entries are defined: >
+ake sure the following entries are defined: >
     " Flex Development
     au BufNewFile,BufRead *.mxml    		setfiletype mxml
     au BufNewFile,BufRead *.as          	setfiletype actionscript
@@ -284,7 +284,7 @@ The MXML completion takes advantage of |ft-xml-omni| and provides the
 necessary data files to allow it to complete MXML tags.
 
 If you are familiar with HTML and OMNI then you will be right at home with
-MXML completion.  Tags have been generated based on Flex 3.  The XML
+XML completion.  Tags have been generated based on Flex 3.  The XML
 namespaces exist in $VIMRUNTIME/autoload/xml/mxml_*.vim.
 
 See the |mxml-completion-tutorial| for examples.
