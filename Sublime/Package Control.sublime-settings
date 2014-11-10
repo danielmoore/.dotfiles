@@ -3,6 +3,7 @@
 	[
 		"Chef",
 		"GitGutter",
+		"Handlebars",
 		"HexViewer",
 		"INI",
 		"JsFormat",
@@ -12,6 +13,7 @@
 		"MarkdownEditing",
 		"Open URL",
 		"PackageResourceViewer",
+		"PowerShell",
 		"Predawn",
 		"Pretty JSON",
 		"Sass",

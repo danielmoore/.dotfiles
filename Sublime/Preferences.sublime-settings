@@ -1,7 +1,6 @@
 {
-	"dictionary": "Packages/Language - English/en_US.dic",
-	"theme": "Piatto Dark 3.sublime-theme",
 	"color_scheme": "Packages/Theme - Piatto/Piatto Dark.tmTheme",
+	"dictionary": "Packages/Language - English/en_US.dic",
 	"folder_exclude_patterns":
 	[
 		".idea",
@@ -9,6 +8,7 @@
 		".sass-cache"
 	],
 	"font_face": "Monaco",
+	"font_size": 8,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -24,6 +24,7 @@
 		"draw_normal",
 		"draw_active"
 	],
+	"revert_font_size": 8,
 	"rulers":
 	[
 		80,
@@ -32,6 +33,7 @@
 	"show_line_endings": true,
 	"spell_check": true,
 	"tab_size": 2,
+	"theme": "Piatto Dark 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_tab_stops": true
