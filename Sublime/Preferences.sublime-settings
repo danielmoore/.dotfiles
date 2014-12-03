@@ -8,16 +8,16 @@
 		".sass-cache"
 	],
 	"font_face": "Monaco",
-	"font_size": 8,
+	"font_size": 10,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Trimmer",
 		"Markdown",
-		"Markdown Preview",
-		"Stylus",
+		"Trimmer",
 		"Vintage",
-		"Theme - Centurion Blue"
+		"Stylus",
+		"Theme - Centurion Blue",
+		"Markdown Preview"
 	],
 	"indent_guide_options":
 	[
