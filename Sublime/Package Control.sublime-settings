@@ -1,4 +1,13 @@
 {
+	"in_process_packages":
+	[
+		"Theme - Centurion"
+	],
+	"installed_dependencies":
+	[
+		"0_package_control_loader",
+		"bz2"
+	],
 	"installed_packages":
 	[
 		"Chef",
@@ -12,6 +21,7 @@
 		"Markdown Preview",
 		"MarkdownEditing",
 		"Open URL",
+		"Package Control",
 		"PackageResourceViewer",
 		"PowerShell",
 		"Predawn",
@@ -21,7 +31,7 @@
 		"SublimeERB",
 		"Table Editor",
 		"Theme - amCoder",
-		"Theme - Centurion Blue",
+		"Theme - Centurion",
 		"Theme - Cobalt2",
 		"Theme - Piatto",
 		"Theme - Spacegray",
