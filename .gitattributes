@@ -1,3 +1,1 @@
-*.sh              eol=lf
-*.bash            eol=lf
-/dotfiles/vim/*   eol=lf
+*.windows eol=crlf
