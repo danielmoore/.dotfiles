@@ -1,22 +1,17 @@
 {
+	"http_proxy": "proxy.capitalone.com:8099",
 	"in_process_packages":
 	[
-		"Theme - Centurion"
-	],
-	"installed_dependencies":
-	[
-		"0_package_control_loader",
-		"bz2"
 	],
 	"installed_packages":
 	[
+		"Babel",
 		"Chef",
 		"GitGutter",
 		"Handlebars",
 		"HexViewer",
 		"INI",
 		"JsFormat",
-		"JSHint Gutter",
 		"LineEndings",
 		"Markdown Preview",
 		"MarkdownEditing",
@@ -29,6 +24,9 @@
 		"Sass",
 		"Stylus",
 		"SublimeERB",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-jshint",
 		"Table Editor",
 		"Theme - amCoder",
 		"Theme - Centurion",
@@ -36,5 +34,7 @@
 		"Theme - Piatto",
 		"Theme - Spacegray",
 		"Trimmer"
-	]
+	],
+	"proxy_password": "Fibo2358",
+	"proxy_username": "vbq655"
 }
