@@ -32,3 +32,9 @@
 
 [pull]
   rebase = true
+
+[fetch]
+  prune = true
+
+[rebase]
+  autosquash = true
