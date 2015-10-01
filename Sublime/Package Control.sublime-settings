@@ -1,5 +1,6 @@
 {
-	"http_proxy": "proxy.capitalone.com:8099",
+	"bootstrapped": true,
+	"http_proxy": "127.0.0.1:4444",
 	"in_process_packages":
 	[
 	],
@@ -7,14 +8,18 @@
 	[
 		"Babel",
 		"Chef",
+		"Cucumber",
+		"Emmet",
+		"Git",
 		"GitGutter",
 		"Handlebars",
 		"HexViewer",
+		"HTML-CSS-JS Prettify",
 		"INI",
-		"JsFormat",
 		"LineEndings",
 		"Markdown Preview",
 		"MarkdownEditing",
+		"Marked App Menu",
 		"Open URL",
 		"Package Control",
 		"PackageResourceViewer",
@@ -34,7 +39,5 @@
 		"Theme - Piatto",
 		"Theme - Spacegray",
 		"Trimmer"
-	],
-	"proxy_password": "Fibo2358",
-	"proxy_username": "vbq655"
+	]
 }

@@ -1,0 +1,4 @@
+[
+  { "keys": ["super+0"], "command": "reset_font_size" },
+  { "keys": ["alt+"], "command": "toggle_overwrite" }
+]

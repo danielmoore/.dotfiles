@@ -1,6 +1,7 @@
 {
 	"color_scheme": "Packages/User/SublimeLinter/Piatto Dark (SL).tmTheme",
 	"dictionary": "Packages/Language - English/en_US.dic",
+	"ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns":
 	[
 		".idea",
@@ -11,19 +12,19 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Stylus",
-		"Markdown Preview",
+		"GitGutter",
 		"Markdown",
+		"Markdown Preview",
+		"Stylus",
+		"Theme - Centurion Blue",
 		"Trimmer",
-		"Theme - Centurion Blue"
+		"Vintage"
 	],
 	"indent_guide_options":
 	[
 		"draw_normal",
 		"draw_active"
 	],
-	"revert_font_size": 8,
 	"rulers":
 	[
 		80,
