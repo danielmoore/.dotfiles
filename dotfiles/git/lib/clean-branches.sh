@@ -1,12 +1,6 @@
 #!/usr/bin/env bash
 
-onerror() {
-  line=$1
-  echo Error executing command on line $line: $BASH_COMMAND
-  exit -1
-}
-
-trap 'onerror $LINENO' ERR
+set -e
 
 usage() {
   cat << EOS
