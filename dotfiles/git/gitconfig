@@ -6,6 +6,7 @@
   ci = commit
   co = checkout
   amend = commit --amend --no-edit
+  fixup = commit --fixup=HEAD
   ffmg = merge --ff-only
   vlog = log --graph --oneline --all --decorate
   rebase-retry = "!rebaseDir=$(git rev-parse --git-dir)/rebase-apply; git reset --hard && git apply $rebaseDir/$(printf '%04d' $(cat $rebaseDir/next)) --3way"
