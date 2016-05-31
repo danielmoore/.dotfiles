@@ -1,5 +1,29 @@
 {
-	"color_scheme": "Packages/User/SublimeLinter/Piatto Dark (SL).tmTheme",
+	"added_words":
+	[
+		"workflow",
+		"workflows",
+		"middleware"
+	],
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"node_modules/**"
+	],
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/Material Flatland Modified.tmTheme",
 	"dictionary": "Packages/Language - English/en_US.dic",
 	"ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns":
@@ -10,14 +34,13 @@
 	],
 	"font_face": "Monaco",
 	"highlight_line": true,
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"GitGutter",
 		"Markdown",
 		"Markdown Preview",
-		"Stylus",
+		"TernJS",
 		"Theme - Centurion Blue",
-		"Trimmer",
 		"Vintage"
 	],
 	"indent_guide_options":
@@ -25,16 +48,25 @@
 		"draw_normal",
 		"draw_active"
 	],
+	"material_theme_accent_teal": true,
+	"material_theme_compact_panel": true,
+	"material_theme_compact_sidebar": true,
+	"material_theme_small_statusbar": true,
+	"material_theme_small_tab": true,
+	"material_theme_tree_headings": true,
 	"rulers":
 	[
 		80,
 		120
 	],
+	"save_on_focus_lost": true,
 	"show_line_endings": true,
 	"spell_check": true,
 	"tab_size": 2,
-	"theme": "Piatto Dark 3.sublime-theme",
+	"table_editor_border_style": "simple",
+	"theme": "Material Flatland.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
+	"typescript_auto_format": false,
 	"use_tab_stops": true
 }
