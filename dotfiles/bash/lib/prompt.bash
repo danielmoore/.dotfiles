@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source $PROFILE_DIR/dotfiles/bash/lib/git-prompt.sh
+# this depends on ./git.bash being sourced already.
 
 env=$(cat ~/.env 2>/dev/null)
 
