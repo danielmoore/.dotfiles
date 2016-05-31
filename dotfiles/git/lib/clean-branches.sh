@@ -27,7 +27,7 @@ whatIf=false
 remote=false
 trashOldBranches=false
 
-while getopts 'hemo:wr' OPTION; do case $OPTION in
+while getopts 'hemo:wrt' OPTION; do case $OPTION in
   h) usage; exit;;
   e) emptyTrash=true;;
   m) deleteMerged=true;;
