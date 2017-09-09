@@ -3,7 +3,10 @@
 	[
 		"workflow",
 		"workflows",
-		"middleware"
+		"middleware",
+		"financials",
+		"collegial",
+		"disempowered"
 	],
 	"binary_file_patterns":
 	[
@@ -25,6 +28,7 @@
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/User/Material Flatland Modified.tmTheme",
 	"dictionary": "Packages/Language - English/en_US.dic",
+	"enable_hexadecimal_encoding": false,
 	"ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns":
 	[
@@ -32,7 +36,7 @@
 		".git",
 		".sass-cache"
 	],
-	"font_face": "Monaco",
+	"font_face": "Fira Code",
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":

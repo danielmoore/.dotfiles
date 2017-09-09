@@ -1,6 +1,5 @@
 {
 	"bootstrapped": true,
-	"http_proxy": "127.0.0.1:4444",
 	"in_process_packages":
 	[
 	],
@@ -13,7 +12,6 @@
 		"DocBlockr",
 		"Dockerfile Syntax Highlighting",
 		"EditorConfig",
-		"Emmet",
 		"Git",
 		"GitGutter",
 		"Handlebars",
@@ -51,7 +49,6 @@
 		"Theme - Piatto",
 		"Theme - Soda",
 		"Theme - Spacegray",
-		"TodoReview",
-		"TypeScript"
+		"TodoReview"
 	]
 }

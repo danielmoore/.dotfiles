@@ -2,3 +2,4 @@ Package Control.last-run
 Package Control.*-ca-*
 Package Control.cache/
 Package Control.ca-certs/
+*.crt

@@ -1,6 +1,6 @@
 {
-	"color_scheme": "Packages/MarkdownEditing/MarkdownEditor.tmTheme",
 	"enable_table_editor": true,
 	"tab_size": 2,
-	"wrap_width": 120
+	"wrap_width": 120,
+  "mde.list_indent_auto_switch_bullet": false
 }
