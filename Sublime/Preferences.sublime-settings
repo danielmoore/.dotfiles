@@ -6,7 +6,8 @@
 		"middleware",
 		"financials",
 		"collegial",
-		"disempowered"
+		"disempowered",
+		"offline"
 	],
 	"binary_file_patterns":
 	[
@@ -41,8 +42,8 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"LineEndings",
 		"Markdown",
-		"Markdown Preview",
 		"TernJS",
 		"Theme - Centurion Blue",
 		"Vintage"
