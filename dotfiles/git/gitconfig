@@ -18,6 +18,7 @@
   tail = log -n 5 --format='%C(auto)%h %>(20)%aN %><(16)%cr %s' --reverse
   diverge = ! $PROFILE_DIR/dotfiles/git/lib/diverge.sh
   clean-branches = ! $PROFILE_DIR/dotfiles/git/lib/clean-branches.sh
+  commit-empty = commit --allow-empty-message -m ''
 
 [push]
   default = upstream
