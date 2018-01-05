@@ -3,4 +3,4 @@
 source $PROFILE_DIR/dotfiles/bash/lib/index.bash
 source $PROFILE_DIR/dotfiles/bash/aliases/darwin.bash
 
-launchctl setenv PATH $PATH
+launchctl setenv PATH "$PATH"
