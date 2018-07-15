@@ -42,8 +42,11 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Emmet",
 		"LineEndings",
 		"Markdown",
+		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-contrib-tslint",
 		"TernJS",
 		"Theme - Centurion Blue",
 		"Vintage"
@@ -66,10 +69,11 @@
 	],
 	"save_on_focus_lost": true,
 	"show_line_endings": true,
+	"skin": "DA UI/Minimal",
 	"spell_check": true,
 	"tab_size": 2,
 	"table_editor_border_style": "simple",
-	"theme": "Material Flatland.sublime-theme",
+	"theme": "DA.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"typescript_auto_format": false,

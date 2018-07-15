@@ -2,6 +2,8 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-contrib-tslint"
 	],
 	"installed_packages":
 	[
@@ -9,6 +11,7 @@
 		"BracketGuard",
 		"Chef",
 		"Cucumber",
+		"DA UI",
 		"DocBlockr",
 		"Dockerfile Syntax Highlighting",
 		"EditorConfig",
@@ -35,10 +38,10 @@
 		"Stylus",
 		"SublimeERB",
 		"SublimeLinter",
-		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-contrib-eslint_d",
-		"SublimeLinter-contrib-tslint",
+		"SublimeLinter-eslint",
 		"SublimeLinter-jshint",
+		"SublimeLinter-tslint",
 		"Table Editor",
 		"TernJS",
 		"Theme - amCoder",
