@@ -2,8 +2,6 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"SublimeLinter-contrib-eslint",
-		"SublimeLinter-contrib-tslint"
 	],
 	"installed_packages":
 	[
@@ -51,5 +49,6 @@
 		"Theme - Soda",
 		"Theme - Spacegray",
 		"TodoReview"
-	]
+	],
+	"proxy": "http://127.0.0.1:4444"
 }

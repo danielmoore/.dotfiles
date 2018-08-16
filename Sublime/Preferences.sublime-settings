@@ -7,7 +7,9 @@
 		"financials",
 		"collegial",
 		"disempowered",
-		"offline"
+		"offline",
+		"proactively",
+		"mentorship"
 	],
 	"binary_file_patterns":
 	[
@@ -45,8 +47,6 @@
 		"Emmet",
 		"LineEndings",
 		"Markdown",
-		"SublimeLinter-contrib-eslint",
-		"SublimeLinter-contrib-tslint",
 		"TernJS",
 		"Theme - Centurion Blue",
 		"Vintage"
