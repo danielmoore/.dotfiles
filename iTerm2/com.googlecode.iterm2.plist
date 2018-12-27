@@ -2589,16 +2589,22 @@
 	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>801 117 722 300 0 0 1680 1028 </string>
+	<key>NSWindow Frame SUStatusFrame</key>
+	<string>818 321 400 129 0 0 1680 1028 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>1194 958 620 392 0 0 3008 1670 </string>
+	<string>1370 1106 620 392 0 0 3360 1867 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 127 606 469 0 0 3008 1670 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>673 174 937 512 0 0 3008 1670 </string>
+	<string>777 510 918 452 0 0 3008 1669 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1463 124 1459 1100 0 0 3008 1670 </string>
+	<string>446 407 864 620 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>187 150 570 425 0 0 1680 1028 </string>
+	<string>820 558 710 470 0 0 3008 1670 </string>
+	<key>NSWindow Frame iTerm Window 2</key>
+	<string>2061 406 815 920 0 0 3360 1868 </string>
+	<key>NSWindow Frame iTerm Window 3</key>
+	<string>3779 325 570 425 3360 -1470 1890 3338 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -2795,7 +2801,7 @@
 			<key>Blur</key>
 			<true/>
 			<key>Blur Radius</key>
-			<real>15.447536057692307</real>
+			<real>30</real>
 			<key>Bold Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -3197,7 +3203,7 @@
 			<key>Normal Font</key>
 			<string>FiraCode-Regular 12</string>
 			<key>Only The Default BG Color Uses Transparency</key>
-			<false/>
+			<true/>
 			<key>Option Key Sends</key>
 			<integer>1</integer>
 			<key>Prompt Before Closing 2</key>
@@ -3351,7 +3357,7 @@
 			<key>Thin Strokes</key>
 			<integer>4</integer>
 			<key>Transparency</key>
-			<real>0.0</real>
+			<real>0.030016656091370556</real>
 			<key>Triggers</key>
 			<array/>
 			<key>Unicode Normalization</key>
@@ -4146,6 +4152,8 @@
 			<string>/Users/vbq655</string>
 		</dict>
 	</array>
+	<key>NoSyncHaveRequestedFullDiskAccess</key>
+	<true/>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
@@ -4222,7 +4230,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-10-24T20:23:26Z</date>
+	<date>2018-12-26T15:44:48Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
@@ -4278,7 +4286,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.1.4.beta.1</string>
+	<string>3.2.7beta2</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>1</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
