@@ -1,0 +1,52 @@
+{
+  "segments": {
+    "above": [
+      {
+        "left": [
+          {
+            "function": "powerline.segments.common.net.hostname",
+            "args": {
+              "exclude_domain": true,
+              "only_if_ssh": true
+            },
+            "priority": 45
+          },
+          {
+            "function": "powerline.segments.common.env.user",
+            "priority": 50
+          },
+          {
+            "function": "powerline.segments.common.env.virtualenv",
+            "priority": 40
+          },
+          {
+            "function": "powerline.segments.shell.cwd",
+            "priority": 30
+          },
+          {
+            "function": "powerline.segments.shell.jobnum",
+            "priority": 20
+          },
+          {
+            "function": "powerline_gitstatus.gitstatus",
+            "priority": 10
+          }
+        ]
+      }
+    ],
+    "left": [
+      {
+        "function": "powerline.segments.shell.last_pipe_status",
+        "priority": 10
+      },
+      {
+        "function": "powerline.segments.shell.mode"
+      },
+      {
+        "name": "prompt",
+        "type": "string",
+        "contents": "$"
+      }
+    ]
+  }
+}

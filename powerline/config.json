@@ -18,7 +18,7 @@
 		},
 		"shell": {
 			"colorscheme": "default",
-			"theme": "default",
+			"theme": "custom",
 			"local_themes": {
 				"continuation": "continuation",
 				"select": "select"
