@@ -68,5 +68,3 @@ hi PreProc	ctermfg=DarkRed guifg=#ffffff gui=none cterm=none
 hi type		ctermfg=LightCyan guifg=LightBlue gui=none cterm=none
 hi Underlined	cterm=underline term=underline
 hi Ignore	guifg=bg ctermfg=bg
-
-

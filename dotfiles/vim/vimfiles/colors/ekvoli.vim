@@ -99,7 +99,3 @@ hi otlTab9    gui=bold,underline guifg=#99ddee
 hi otlTodo    gui=bold,underline guifg=white guibg=#00a0d0
 hi otlTagRef  guifg=white guibg=#8070a0   
 hi otlTagDef  guifg=white guibg=#005090
-
-
-
-

@@ -399,4 +399,3 @@ let &cpo = s:mxml_cpo_save
 unlet s:mxml_cpo_save
 
 " vim: ts=8
-

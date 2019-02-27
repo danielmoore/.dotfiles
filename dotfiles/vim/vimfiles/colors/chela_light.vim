@@ -107,4 +107,3 @@ hi visual       guibg=#cccccc   guifg=#333333   gui=none
 hi warningmsg   guibg=#fafafa   guifg=#ff0000   gui=none
 
 hi wildmenu     guibg=#339900   guifg=#ffffff   gui=none
-

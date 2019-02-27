@@ -91,4 +91,3 @@ hi  notesItalic gui=italic term=italic cterm=italic
 hi  notesBold gui=bold term=bold cterm=bold
 
 let b:current_syntax = "notes"
-

@@ -1,5 +1,5 @@
 " Vim color file
-" Maintainer: Niklas Lindström <nlm@valtech.se>
+" Maintainer: Niklas Lindstrï¿½m <nlm@valtech.se>
 " Last Change: 2002-03-22
 " Version: 0.3
 " URI: http://localhost/
@@ -106,6 +106,3 @@ highlight Error      guifg=LightYellow  guibg=FireBrick
 highlight Todo          guifg=Cyan guibg=#507080
 
 """ OLD COLORS
-
-
-

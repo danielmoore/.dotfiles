@@ -57,4 +57,3 @@ hi Error        gui=NONE guifg=White guibg=Red
 
 hi Cursor       ctermfg=Black ctermbg=Yellow
 hi Cursor       guifg=Black guibg=Yellow
-

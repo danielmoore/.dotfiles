@@ -47,6 +47,3 @@ highlight Conditional    gui=BOLD guifg=Wheat2       guibg=bg
 highlight Statement      gui=BOLD guifg=Pink3        guibg=bg 
 highlight WildMenu       gui=NONE guifg=White        guibg=FireBrick
 highlight browseSuffixes gui=NONE guifg=Cornsilk3    guibg=bg
-
-
-

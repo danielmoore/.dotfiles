@@ -116,4 +116,3 @@ hi texSection           guifg=greenyellow
 " tex between { and }
 hi texMatcher           guifg=yellowgreen                       gui=none
 hi texMath                                                      gui=none
-

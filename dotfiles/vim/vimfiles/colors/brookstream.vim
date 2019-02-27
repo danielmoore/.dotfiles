@@ -1,8 +1,8 @@
 "--------------------------------------------------------------------
 " Name Of File: brookstream.vim.
 " Description: Gvim colorscheme, works best with version 6.1 GUI .
-" Maintainer: Peter Bäckström.
-" Creator: Peter Bäckström.
+" Maintainer: Peter Bï¿½ckstrï¿½m.
+" Creator: Peter Bï¿½ckstrï¿½m.
 " URL: http://www.brookstream.org (Swedish).
 " Credits: Inspiration from the darkdot scheme.
 " Last Change: Friday, April 13, 2003.

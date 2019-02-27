@@ -168,5 +168,3 @@ let b:undo_ftplugin = "setlocal commentstring< comments< formatoptions<" .
 let &cpo = s:save_cpo
 
 " vim:sw=4:
-
-

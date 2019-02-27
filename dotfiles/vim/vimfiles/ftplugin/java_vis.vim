@@ -41,4 +41,3 @@ imap <silent><buffer> . .<C-R>=IN_ShowVISDialog("showMethodList")<CR>
 imap <silent><buffer> <C-Space> <C-R>=IN_ShowVISDialog("showGenList")<CR>
 imap <silent><buffer> ( (<C-R>=IN_ShowVISDialog("showTooltip")<CR>
 imap <silent><buffer> <C-S-Space> <C-R>=IN_ShowVISDialog("showTooltip")<CR>
-

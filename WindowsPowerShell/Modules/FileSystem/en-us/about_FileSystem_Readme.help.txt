@@ -240,6 +240,3 @@ REMARKS
     To see the examples, type: "get-help Copy-ToZip -examples".
     For more information, type: "get-help Copy-ToZip -detailed".
     For technical information, type: "get-help Copy-ToZip -full".
-
-
-

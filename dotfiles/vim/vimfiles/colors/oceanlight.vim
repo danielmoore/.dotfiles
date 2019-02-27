@@ -1,5 +1,5 @@
 " Vim color file
-" Maintainer: Håkan Wikström <hakan@wikstrom.st>
+" Maintainer: Hï¿½kan Wikstrï¿½m <hakan@wikstrom.st>
 " Last Change: 2005-01-06
 " Version: 0.1
 " URL: 

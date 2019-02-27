@@ -94,4 +94,3 @@ highlight link Tag             Special
 "highlight link Delimiter       Special
 "highlight link SpecialComment  Special
 highlight link Debug           Special
-

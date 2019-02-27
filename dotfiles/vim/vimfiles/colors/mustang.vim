@@ -54,4 +54,3 @@ hi Todo         guifg=#000000 guibg=#e6ea50 gui=italic
 hi pythonOperator guifg=#7e8aa2 gui=none ctermfg=103
 
 hi Search     guifg=white	guibg=NONE	cterm=NONE	gui=underline
-

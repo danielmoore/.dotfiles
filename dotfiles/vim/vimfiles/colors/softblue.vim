@@ -1,6 +1,6 @@
 " Vim color file
 " Maintainer:   Zhang Jing
-" Last Change:  %[% 2005Äê12ÔÂ07ÈÕ ÐÇÆÚÈý 10Ê±41·Ö49Ãë %]%
+" Last Change:  %[% 2005ï¿½ï¿½12ï¿½ï¿½07ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 10Ê±41ï¿½ï¿½49ï¿½ï¿½ %]%
 
 set background=dark
 if version > 580

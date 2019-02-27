@@ -95,33 +95,31 @@ All of the Windows PowerShell Scripts in the PowerShell Pack would not be
 possible without the amazing people who put their hearts into developing 
 Windows PowerShell V2:
 
-Norberto Arrieta – For Opening the PowerShell Engine to the World of WPF
-Vladimir Averkin – For Making Remoting Good
-June Blender – For the goodness in Get-Help
-Karan Dhillon – For Triage and For Guidance
-Kenneth Hansen – For Steering the Ship
-Dan Harman – For Modules
-Lee Holmes – For the Magic of Add-Type
-Arul Kumaravel – For Herding Developers
-James Lewis – For Keeping PowerShell V2 Jobs on Track
-Narayanan Lakshmanan – For PowerShell V2 Jobs
-Steve Nelson – For keeping our APIs sane
-Arul Kumaravel – For Herding Developers
-Hemant Mahawar – For keeping the engine focused
-Refaat Issa – For the ISE’s Vision and Bringing V2 Scripting to Life
-Bruce Payette – For PowerShell’s Amazing Language and For Modules
-Ibrahim Abdul Rahim – For Keeping the Integrated Scripting Environment Focused
-Lucio Silveria – For the Integrated Scripting Environment’s Ability to Script UI
-Jason Shirk – For Script Cmdlets and tons of V2 improvements
-Jeffrey Snover – For PowerShell’s Vision
-Marcel Ortiz Soto – For Upping the Scripting Ante
-Krishna Vutukuri – For Remoting 
-Wei Wu – For Making Remoting Great
-Jon White – For Focus
+Norberto Arrieta ï¿½ For Opening the PowerShell Engine to the World of WPF
+Vladimir Averkin ï¿½ For Making Remoting Good
+June Blender ï¿½ For the goodness in Get-Help
+Karan Dhillon ï¿½ For Triage and For Guidance
+Kenneth Hansen ï¿½ For Steering the Ship
+Dan Harman ï¿½ For Modules
+Lee Holmes ï¿½ For the Magic of Add-Type
+Arul Kumaravel ï¿½ For Herding Developers
+James Lewis ï¿½ For Keeping PowerShell V2 Jobs on Track
+Narayanan Lakshmanan ï¿½ For PowerShell V2 Jobs
+Steve Nelson ï¿½ For keeping our APIs sane
+Arul Kumaravel ï¿½ For Herding Developers
+Hemant Mahawar ï¿½ For keeping the engine focused
+Refaat Issa ï¿½ For the ISEï¿½s Vision and Bringing V2 Scripting to Life
+Bruce Payette ï¿½ For PowerShellï¿½s Amazing Language and For Modules
+Ibrahim Abdul Rahim ï¿½ For Keeping the Integrated Scripting Environment Focused
+Lucio Silveria ï¿½ For the Integrated Scripting Environmentï¿½s Ability to Script UI
+Jason Shirk ï¿½ For Script Cmdlets and tons of V2 improvements
+Jeffrey Snover ï¿½ For PowerShellï¿½s Vision
+Marcel Ortiz Soto ï¿½ For Upping the Scripting Ante
+Krishna Vutukuri ï¿½ For Remoting 
+Wei Wu ï¿½ For Making Remoting Great
+Jon White ï¿½ For Focus
 
 And for all the Windows PowerShell alumni and Windows PowerShell MVPs that have 
 pushed to make the language great.
 
 --James Brundage
-
-

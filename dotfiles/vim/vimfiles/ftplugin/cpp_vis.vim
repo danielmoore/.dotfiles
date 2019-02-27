@@ -247,4 +247,3 @@ if (s:showpublicaccessorsonly == 1)
 endif
 
 " }}}
-

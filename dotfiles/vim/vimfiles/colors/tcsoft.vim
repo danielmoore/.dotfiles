@@ -1,9 +1,9 @@
 " Vim Farben-Datei
 " Ersteller:	Ingo Fabbri <vim@tcsoft.net>
-" Letzte Änderung:	2007 Jan 19
+" Letzte ï¿½nderung:	2007 Jan 19
 
-" Mein persönliches Farbschema. Es schont die Augen, da es keine grellen Farben verwendet.
-" Am Besten geignet für PHP
+" Mein persï¿½nliches Farbschema. Es schont die Augen, da es keine grellen Farben verwendet.
+" Am Besten geignet fï¿½r PHP
 
 set background=light
 hi clear
@@ -29,8 +29,8 @@ if version >= 700
   "PmenuThumb
 endif
 
-" Farb-Einstellungen für das GUI
-hi Normal       guifg=#000000   guibg=#FFFFFF "Schwarze Schrift auf weißem Hintergrund
+" Farb-Einstellungen fï¿½r das GUI
+hi Normal       guifg=#000000   guibg=#FFFFFF "Schwarze Schrift auf weiï¿½em Hintergrund
 
 hi Ignore       guifg=bg
 
@@ -39,7 +39,7 @@ hi Constant     guifg=#666666   gui=NONE    "grau
 hi Special      guifg=#FF0000   gui=NONE    "rot
 hi Identifier   guifg=#993300   gui=NONE    "rostfarbig
 hi Statement    guifg=#FF9900   gui=NONE    "orange
-hi PreProc      guifg=#009900   gui=NONE    "dunkelgrün
+hi PreProc      guifg=#009900   gui=NONE    "dunkelgrï¿½n
 hi Type         guifg=#FF9900   gui=bold    "orange
 hi Cursor       guifg=#000000   gui=reverse "schwarz
 hi LineNr       guifg=#000000   guibg=#EFEFEF  gui=NONE    "schwarz

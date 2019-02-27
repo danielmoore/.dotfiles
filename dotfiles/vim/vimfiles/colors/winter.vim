@@ -84,4 +84,3 @@ hi Todo             guifg=#FF0000 guibg=#FFFF00 gui=UNDERLINE
 " vim:foldmethod=marker:tabstop=4
 "                                                                              "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-

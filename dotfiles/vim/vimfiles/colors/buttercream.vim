@@ -1,7 +1,7 @@
 " Vim color file
 " vim: tw=0 ts=8 sw=4
 " Scriptname:   buttercream
-" Maintainer:   Håkan Wikström <hakan@prinsig.se>
+" Maintainer:   Hï¿½kan Wikstrï¿½m <hakan@prinsig.se>
 " Version:      1.1
 " Last Change:  20060413
 " As of now only gui is supported

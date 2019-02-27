@@ -1567,5 +1567,3 @@ using System.Windows.Markup;
       }
    }
 }
-
-

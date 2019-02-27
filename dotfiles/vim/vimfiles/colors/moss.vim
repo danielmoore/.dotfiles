@@ -106,4 +106,3 @@ hi Underlined  gui=UNDERLINE guifg=SkyBlue3
 hi Ignore      gui=NONE guifg=Gray18
 hi Error       gui=NONE guifg=Khaki3 guibg=VioletRed4
 hi Todo        gui=BOLD guifg=GoldenRod3 guibg=NONE
-

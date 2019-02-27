@@ -92,4 +92,3 @@ imap <silent><buffer> <C-Space>R <C-R>=IN_ShowVISDialog("ResetAllColumnCache")<C
 " Two mapping has been added for convience.
 imap <silent><buffer> <C-Space>. .<C-R>=IN_ShowVISDialog("GetColumnList")<CR>
 imap <silent><buffer> <C-Space><C-Space> .<C-R>=IN_ShowVISDialog("GetColumnList")<CR>
-

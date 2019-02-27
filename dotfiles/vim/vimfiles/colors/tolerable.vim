@@ -40,4 +40,3 @@ hi Todo         gui=none guifg=black guibg=yellow
 
 hi MoreMsg      gui=none
 hi ModeMsg      gui=none
-

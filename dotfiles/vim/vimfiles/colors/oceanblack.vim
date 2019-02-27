@@ -110,6 +110,3 @@ highlight Error      guifg=LightYellow  guibg=FireBrick
 highlight Todo          guifg=Cyan guibg=#507080
 
 """ OLD COLORS
-
-
-

@@ -79,4 +79,3 @@ hi Underlined   gui=UNDERLINE   cterm=UNDERLINE
 hi Ignore       guifg=Gray75   ctermfg=DarkGray
 hi Error        guifg=Khaki guibg=VioletRed   ctermfg=Yellow ctermbg=LightMagenta
 hi Todo         guifg=Yellow guibg=NavyBlue   ctermfg=Yellow ctermbg=DarkBlue
-

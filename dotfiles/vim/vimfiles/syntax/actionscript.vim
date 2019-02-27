@@ -170,4 +170,3 @@ if main_syntax == 'actionscript'
 endif
 
 " vim: ts=8
-

@@ -21,4 +21,3 @@ hi Special		gui=NONE		guifg=SteelBlue	guibg=NONE
 "hi Ignore		
 "hi Error		
 "hi Todo		
-

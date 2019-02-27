@@ -43,5 +43,3 @@ imap <silent><buffer> <C-Space>  <Space><Left><C-R>=IN_ShowVISDialog("showGenLis
 imap <silent><buffer> =  =<C-R>=IN_ShowVISDialog("showGenList")<CR>
 imap <silent><buffer> ( (<C-R>=IN_ShowVISDialog("showTooltip")<CR>
 imap <silent><buffer> <C-S-Space> <C-R>=IN_ShowVISDialog("showTooltip")<CR>
-
-

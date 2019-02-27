@@ -1,7 +1,7 @@
 " vim: ts=8
 " Vim syntax file
 " Language:     ANTLRv3
-" Maintainer:   Jörn Horstmann (updated by Davyd Madeley)
+" Maintainer:   Jï¿½rn Horstmann (updated by Davyd Madeley)
 " Last Change:  2008-11-21
 
 " For version 5.x: Clear all syntax items

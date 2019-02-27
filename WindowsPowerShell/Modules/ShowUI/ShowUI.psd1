@@ -8,4 +8,3 @@
     FormatsToProcess='ShowUI.Formats.ps1xml'    
     ScriptsToProcess='Get-ReferencedCommand.ps1','Get-UiCommand.ps1'    
 } 
-

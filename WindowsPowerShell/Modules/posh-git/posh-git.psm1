@@ -35,5 +35,3 @@ Export-ModuleMember `
         'Get-SshPath',
         'Update-AllBranches',
         'tgit')
-
-

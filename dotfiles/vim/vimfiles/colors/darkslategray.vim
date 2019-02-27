@@ -114,4 +114,3 @@ hi Ignore               guifg=bg
 hi Error                gui=bold guifg=#ffffff guibg=#ff0000
 
 hi Todo                 gui=bold guifg=#000000 guibg=#ff83fa
-

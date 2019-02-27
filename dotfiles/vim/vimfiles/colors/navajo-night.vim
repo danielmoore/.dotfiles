@@ -115,5 +115,3 @@ highlight Cream_ShowMarksHL ctermfg=blue ctermbg=lightblue cterm=bold guifg=Blac
 " adjusted:
 highlight BadWord ctermfg=black ctermbg=lightblue gui=NONE guifg=#ff9999 guibg=#003333
 "+++
-
-

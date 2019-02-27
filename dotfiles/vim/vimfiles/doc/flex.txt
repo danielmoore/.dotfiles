@@ -208,19 +208,19 @@ create ActionScript only files (myfile.as).  Imports are like all other
 languages.  If we assume a standard project directory layout: >
     +--C:\project
         +--bin-debug
-        ¦  +--assets
-        ¦  +--flexlib
-        ¦  +--history
+        ï¿½  +--assets
+        ï¿½  +--flexlib
+        ï¿½  +--history
         +--html-template
-        ¦  +--history
+        ï¿½  +--history
         +--libs
-        ¦  +--flexlib.swc
+        ï¿½  +--flexlib.swc
         +--src
-        ¦  +--com
-        ¦     +--myCompany
-        ¦        +--myProject
-        ¦           +--Common.as
-        ¦  +--main.mxml
+        ï¿½  +--com
+        ï¿½     +--myCompany
+        ï¿½        +--myProject
+        ï¿½           +--Common.as
+        ï¿½  +--main.mxml
 
 If we have a main.mxml that looks like this: >
     <?xml version="1.0" encoding="utf-8"?>
@@ -508,15 +508,15 @@ and over again which makes long term maintenance easier.
 Assuming you are using the standard FlexBuilder project directory structure: >
     +--C:\project
         +--bin-debug
-        ¦  +--assets
-        ¦  +--flexlib
-        ¦  +--history
+        ï¿½  +--assets
+        ï¿½  +--flexlib
+        ï¿½  +--history
         +--html-template
-        ¦  +--history
+        ï¿½  +--history
         +--libs
-        ¦  +--flexlib.swc
+        ï¿½  +--flexlib.swc
         +--src
-        ¦  +--main.mxml
+        ï¿½  +--main.mxml
 <
 Then with the autocmd defined and you run: >
     :compiler mxmlc
@@ -541,15 +541,15 @@ This section assumes you have installed the ant_menu plugin
 If you are using the standard FlexBuilder project directory structure: >
     +--C:\project
         +--bin-debug
-        ¦  +--assets
-        ¦  +--flexlib
-        ¦  +--history
+        ï¿½  +--assets
+        ï¿½  +--flexlib
+        ï¿½  +--history
         +--html-template
-        ¦  +--history
+        ï¿½  +--history
         +--libs
-        ¦  +--flexlib.swc
+        ï¿½  +--flexlib.swc
         +--src
-        ¦  +--main.mxml
+        ï¿½  +--main.mxml
         +--build.xml
 <
 You can create the flex ant build file here: C:\project\build.xml.

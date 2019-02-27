@@ -138,4 +138,3 @@ hi PmenuSel    ctermfg=Black ctermbg=Cyan      guifg=#000000 guibg=#87ceeb gui=n
 hi Pmenu       ctermfg=White ctermbg=DarkBlue  guifg=#000000 guibg=#4682b4 gui=none
 hi PmenuSbar   ctermfg=White ctermbg=LightCyan guifg=#ffffff guibg=#848484 gui=none
 hi PmenuThumb  ctermfg=White ctermbg=DarkGreen guifg=#ffffff guibg=#87ceeb gui=none
-
