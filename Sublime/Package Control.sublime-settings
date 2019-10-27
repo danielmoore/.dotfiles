@@ -2,12 +2,12 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"DA UI",
+		"Theme - Piatto"
 	],
 	"installed_packages":
 	[
-		"Babel",
 		"BracketGuard",
-		"Chef",
 		"Cucumber",
 		"DA UI",
 		"DocBlockr",
@@ -31,9 +31,7 @@
 		"PowerShell",
 		"Predawn",
 		"Pretty JSON",
-		"Sass",
 		"SassBeautify",
-		"Stylus",
 		"SublimeERB",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint_d",
@@ -43,8 +41,8 @@
 		"Table Editor",
 		"TernJS",
 		"Theme - amCoder",
-		"Theme - Centurion",
 		"Theme - Cobalt2",
+		"Theme - Gravity",
 		"Theme - Piatto",
 		"Theme - Soda",
 		"Theme - Spacegray",
