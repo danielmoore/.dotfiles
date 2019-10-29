@@ -2,11 +2,10 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"DA UI",
-		"Theme - Piatto"
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"BracketGuard",
 		"Cucumber",
 		"DA UI",
