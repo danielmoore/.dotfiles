@@ -8,7 +8,6 @@
 		"A File Icon",
 		"BracketGuard",
 		"Cucumber",
-		"DA UI",
 		"DocBlockr",
 		"Dockerfile Syntax Highlighting",
 		"EditorConfig",
@@ -22,15 +21,11 @@
 		"Marked App Menu",
 		"Materialize",
 		"Materialize-Appbar",
-		"Monokai Neue",
 		"nginx",
 		"Open URL",
 		"Package Control",
-		"PackageResourceViewer",
 		"PowerShell",
-		"Predawn",
 		"Pretty JSON",
-		"SassBeautify",
 		"SublimeERB",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint_d",
@@ -39,13 +34,9 @@
 		"SublimeLinter-tslint",
 		"Table Editor",
 		"TernJS",
-		"Theme - amCoder",
-		"Theme - Cobalt2",
 		"Theme - Gravity",
-		"Theme - Piatto",
 		"Theme - Soda",
 		"Theme - Spacegray",
 		"TodoReview"
-	],
-	"proxy": "http://127.0.0.1:4444"
+	]
 }
