@@ -77,7 +77,7 @@ moveBranch() {
   if $whatIf; then return; fi
 
   if $remote; then
-    git push $remoteName "$oldBranch:refs/heads/$newBranch"
+    git push $remoteName "origin/$oldBranch:refs/heads/$newBranch"
     git push --delete $remoteName $remoteBranch
   else
     git branch $newBranch $oldBranch
